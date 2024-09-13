@@ -81,3 +81,23 @@ const name = 'Mango';
  `My name is ${name} , I'm ${age} years old and ${mood}.`
 
  console.log(newmessage); // My name is Mango, I'm 2 years old  and happy.
+
+
+ const vardas = 'Ivan'
+ console.log(vardas.toUpperCase());
+
+ const firstvardas = 'Petro'
+ console.log(firstvardas.charAt(2));
+ 
+ const surNameSpace = 'Petro Petrovych'
+ console.log(surNameSpace.indexOf('y'));
+
+ const Replace = 'Petro'
+ console.log(Replace.replace('P', '@'));
+
+ const language = 'JavaScript'
+ console.log(language.substring(4));
+
+ 
+ const language1 = 'JavaScript'
+ console.log(language1.substring(0, 4));
